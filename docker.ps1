@@ -1,5 +1,7 @@
 # --- Installation Docker ---
 
+$Host.UI.RawUI.WindowTitle = "🐳 Installation Docker"
+
 function Install-Docker {
     $DockerPath = "$env:ProgramFiles\Docker\Docker\Docker.exe"
     

@@ -1,5 +1,7 @@
 # --- Installation VSCodium ---
 
+$Host.UI.RawUI.WindowTitle = "💻 Installation VSCodium"
+
 function Get-LatestGitHubRelease {
     param([string]$Repo)
     $url = "https://api.github.com/repos/$Repo/releases/latest"
@@ -27,6 +29,8 @@ function Install-VSCodium {
     Write-Host "`n> Lancement de l'installation des extensions dans une nouvelle fenêtre..." -ForegroundColor Yellow
     
     $ExtensionsScript = @"
+`$Host.UI.RawUI.WindowTitle = "📦 Installation des Extensions VSCodium"
+
 Write-Host "Installation des extensions VSCodium..." -ForegroundColor Cyan
 
 `$Extensions = @(

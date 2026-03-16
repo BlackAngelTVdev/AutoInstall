@@ -1,5 +1,7 @@
 # --- Installation DBeaver (Database Manager) ---
 
+$Host.UI.RawUI.WindowTitle = "🗄️ Installation DBeaver"
+
 function Install-DBeaver {
     $DBeaverPath = "$env:ProgramFiles\DBeaver\dbeaver.exe"
     

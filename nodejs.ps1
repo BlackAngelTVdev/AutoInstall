@@ -1,5 +1,7 @@
 # --- Installation Node.js ---
 
+$Host.UI.RawUI.WindowTitle = "🟢 Installation Node.js"
+
 function Install-NodeJS {
     $NodePath = "$env:ProgramFiles\nodejs\node.exe"
     

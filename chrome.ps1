@@ -1,5 +1,7 @@
 # --- Installation Chrome ---
 
+$Host.UI.RawUI.WindowTitle = "🌐 Installation Chrome"
+
 function Install-Chrome {
     $ChromePath = "$env:ProgramFiles\Google\Chrome\Application\chrome.exe"
     

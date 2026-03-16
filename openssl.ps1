@@ -1,5 +1,7 @@
 # --- Installation OpenSSL ---
 
+$Host.UI.RawUI.WindowTitle = "🔐 Installation OpenSSL"
+
 function Install-OpenSSL {
     $OpenSSLPath = "$env:ProgramFiles\OpenSSL-Win64\bin\openssl.exe"
     

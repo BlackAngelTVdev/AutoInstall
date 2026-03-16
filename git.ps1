@@ -1,5 +1,7 @@
 # --- Installation Git ---
 
+$Host.UI.RawUI.WindowTitle = "🔗 Installation Git"
+
 function Install-Git {
     $GitPath = "$env:ProgramFiles\Git\bin\git.exe"
     

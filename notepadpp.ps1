@@ -1,5 +1,7 @@
 # --- Installation Notepad++ ---
 
+$Host.UI.RawUI.WindowTitle = "✏️ Installation Notepad++"
+
 function Install-Notepadpp {
     $NotepadppPath = "$env:ProgramFiles\Notepad++\notepad++.exe"
     

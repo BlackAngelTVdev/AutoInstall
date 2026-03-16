@@ -1,5 +1,7 @@
 # --- Installation Firefox ---
 
+$Host.UI.RawUI.WindowTitle = "🦊 Installation Firefox"
+
 function Get-LatestGitHubRelease {
     param([string]$Repo)
     $url = "https://api.github.com/repos/$Repo/releases/latest"

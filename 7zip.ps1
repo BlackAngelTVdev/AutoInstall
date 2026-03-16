@@ -1,5 +1,7 @@
 # --- Installation 7-Zip (alternative portable à WinRAR) ---
 
+$Host.UI.RawUI.WindowTitle = "📦 Installation 7-Zip"
+
 function Install-SevenZip {
     $SevenZipPath = "$env:LOCALAPPDATA\7-Zip\7z.exe"
     

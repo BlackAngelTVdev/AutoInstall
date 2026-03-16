@@ -1,5 +1,7 @@
 # --- Installation Insomnia (API Client) ---
 
+$Host.UI.RawUI.WindowTitle = "🌙 Installation Insomnia"
+
 function Install-Insomnia {
     $InsomniaPath = "$env:LOCALAPPDATA\Insomnia\Insomnia.exe"
     

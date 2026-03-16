@@ -1,6 +1,9 @@
 $ErrorActionPreference = "Continue" 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
+# --- Titre de la fenêtre ---
+$Host.UI.RawUI.WindowTitle = "⚙️  Menu d'Installation - AutoInstall"
+
 # --- Fonctions ---
 function Get-LatestGitHubRelease {
     param([string]$Repo)

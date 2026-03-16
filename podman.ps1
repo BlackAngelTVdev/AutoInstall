@@ -1,5 +1,7 @@
 # --- Installation Podman (User Mode) ---
 
+$Host.UI.RawUI.WindowTitle = "🐳 Installation Podman"
+
 function Get-LatestGitHubRelease {
     param([string]$Repo)
     $url = "https://api.github.com/repos/$Repo/releases/latest"

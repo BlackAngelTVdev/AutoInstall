@@ -1,5 +1,7 @@
 # --- Installation Postman ---
 
+$Host.UI.RawUI.WindowTitle = "📮 Installation Postman"
+
 function Install-Postman {
     $PostmanPath = "$env:LOCALAPPDATA\Postman\Postman.exe"
     

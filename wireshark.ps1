@@ -1,5 +1,7 @@
 # --- Installation WireShark (Network Analysis) ---
 
+$Host.UI.RawUI.WindowTitle = "🔍 Installation WireShark"
+
 function Install-Wireshark {
     $WiresharkPath = "$env:ProgramFiles\Wireshark\wireshark.exe"
     

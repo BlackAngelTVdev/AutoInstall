@@ -1,5 +1,7 @@
 # --- Installation VLC ---
 
+$Host.UI.RawUI.WindowTitle = "🎬 Installation VLC"
+
 function Install-VLC {
     $VLCPath = "$env:ProgramFiles\VideoLAN\VLC\vlc.exe"
     

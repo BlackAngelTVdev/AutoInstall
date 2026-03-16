@@ -1,5 +1,7 @@
 # --- Installation Python ---
 
+$Host.UI.RawUI.WindowTitle = "🐍 Installation Python"
+
 function Install-Python {
     $PythonPath = "$env:ProgramFiles\Python312\python.exe"
     

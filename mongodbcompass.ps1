@@ -1,5 +1,7 @@
 # --- Installation MongoDB Compass ---
 
+$Host.UI.RawUI.WindowTitle = "🍃 Installation MongoDB Compass"
+
 function Install-MongoDBCompass {
     $MongoPath = "$env:ProgramFiles\MongoDB\MongoDB Compass\mongodb-compass.exe"
     
